@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Student 1 -->
+    <bean id="student1" class="com.student.Student">
+        <constructor-arg value="101"/>
+        <constructor-arg value="Saisudeep"/>
+        <constructor-arg value="Java"/>
+        <constructor-arg value="3"/>
+    </bean>
+
+    <!-- Student 2 -->
+    <bean id="student2" class="com.student.Student">
+        <constructor-arg value="102"/>
+        <constructor-arg value="Rahul"/>
+        <constructor-arg value="Spring"/>
+        <constructor-arg value="2"/>
+    </bean>
+
+    <!-- Student 3 -->
+    <bean id="student3" class="com.student.Student">
+        <constructor-arg value="103"/>
+        <constructor-arg value="Anjali"/>
+        <constructor-arg value="Python"/>
+        <constructor-arg value="1"/>
+    </bean>
+
+</beans>
